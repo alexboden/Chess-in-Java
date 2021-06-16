@@ -78,24 +78,7 @@ public class Board {
     
     public static void setDoubleJumpByPawn(boolean b){
         doubleJumpByPawn = b;
-    }
-
-    public static String displayBoard() {
-        String output = "";
-        for (int i = 0; i < 64; i++) {
-            if (i % 8 == 0) {
-                output += "\n";
-            }
-            if (boardMap.containsKey(i)) {
-                output += boardMap.get(i).getPieceColour() == Colour.BLACK
-                        ? boardMap.get(i).toString().substring(7, 8) : boardMap.get(i).toString().toLowerCase().substring(7, 8);
-                output += " ";
-            } else {
-                output += "- ";
-            }
-        }
-        return output;
-    }
+    }          
 
     public ArrayList<Move> getLegalMovesForPlayer(ArrayList<Piece> pieces) {
         ArrayList<Move> legalMoves = new ArrayList<>();
