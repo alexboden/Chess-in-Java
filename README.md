@@ -5,7 +5,7 @@ Currently, you play as white against a computer that randomly selects a legal mo
 
 ## How to Run 
 1. .jar file (Java must be installed)
-	- Download "Chess_in_Java.jar" 
+	- Download "Chess_in_Java.jar" [Link to file](https://github.com/alexboden/chess-in-java/blob/master/Chess%20NetBeans%20Source/dist/Chess_in_Java.jar)
 	- Naviagate to correct folder in terminal/command line
 	- Use the command ```java -jar "Chess_in_Java.jar"``` to execute to file
 2. NetBeans
