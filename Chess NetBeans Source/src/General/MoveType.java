@@ -1,0 +1,5 @@
+package General;
+
+public enum MoveType {
+    COMMON, ATTACKING, KINGSIDECASTLE, QUEENSIDECASTLE, ENPASSANT;
+}
